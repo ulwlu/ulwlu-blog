@@ -4,8 +4,9 @@
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
+		"adapt": "svelte-kit adapt",
 		"start": "svelte-kit start",
-    "esfix": "eslint --fix ./src/**/*.ts ./src/**/*.svelte"
+    "eslint:fix": "eslint --fix ./src/**/*.ts ./src/**/*.svelte"
 	},
 	"devDependencies": {
 		"@snowpack/plugin-build-script": "^2.0.11",
