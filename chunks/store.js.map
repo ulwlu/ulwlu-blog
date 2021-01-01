@@ -1,0 +1,1 @@
+{"version":3,"file":"store.js","sources":["../../../unoptimized/server/_app/routes/store.js"],"sourcesContent":["import {writable} from \"./localStore.js\";\nexport const preferences = writable(\"preferences\", {theme: \"dark\"});\n//# sourceMappingURL=store.js.map\n"],"names":["preferences","theme"],"mappings":"wEACY,MAACA,sCAAuB,cAAe,CAACC,MAAO"}
